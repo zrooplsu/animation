@@ -1,0 +1,87 @@
+.block {
+    width: 75px;
+    border-radius: 99px;
+    height: 75px;
+    background-color: darkblue;
+    animation-name: Saidumar_IT;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Saidumar_IT {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 175px;
+    }
+}
+.block2 {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    animation-name: guhjo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes guhjo {
+    from {
+        margin-left: 0;
+    }
+    0% {
+        background-color: blue;
+        transform: rotate(0)
+    }
+    20% {
+        background-color: green;
+    }
+    40% {
+        background-color: red;
+    }
+    60% {
+        background-color: violet;
+    }
+    80% {
+        background-color: black;
+    }
+    100% {
+        background-color: hotpink;
+        transform: rotate(360deg)
+        
+    }
+    to {
+        margin-left: 250px;
+    }
+}
+.block1_div {
+    margin-top: 50px;
+    width: 250px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+}
+.block3 {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    animation-name: ooooo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ooooo {
+      from {
+        width: 0;
+        height: 0;
+        border-radius: 0px;
+      }
+      to {
+        width: 100px;
+        height: 100px;
+        border-radius: 99px;
+      }
+}
